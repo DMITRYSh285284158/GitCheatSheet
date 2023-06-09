@@ -1,6 +1,8 @@
 .header {
     justify-content: center;
     text-align:center;
+    color: #941a79;
+    background-color: aqua;
 }
 ol li {
     list-style-position: inside;
@@ -9,7 +11,12 @@ ol li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #table {
-    line-height:200%
+    border-collapse: collapse;
+    border: 3px solid;
+    border-color: #941a79;
+    padding-left: 500px;
+    margin: 0 auto;
+    table-layout: auto;
 }
 footer {
     padding-top: 3px;
